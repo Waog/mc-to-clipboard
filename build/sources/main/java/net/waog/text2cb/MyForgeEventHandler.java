@@ -11,39 +11,6 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class MyForgeEventHandler {
 
-	// private String lastEquippedItem;
-	//
-	// @SubscribeEvent
-	// public void onPlayerTick(TickEvent.PlayerTickEvent event) {
-	//
-	// if(event.phase == TickEvent.Phase.START
-	// && event.side == Side.SERVER
-	// ) {
-	//
-	//// System.out.println("+++ event.player.getHeldEquipment() " +
-	// event.player.getHeldEquipment());
-	// ItemStack equipedItem =
-	// event.player.getHeldEquipment().iterator().next();
-	// System.out.println("+++ ItemStack: " + equipedItem);
-	// System.out.println("+++ equipedItem.getDisplayName(): " +
-	// equipedItem.getDisplayName());
-	// System.out.println("+++ equipedItem.getUnlocalizedName(): " +
-	// equipedItem.getUnlocalizedName());
-	// System.out.println("+++ equipedItem.getItem(): " +
-	// equipedItem.getItem());
-	// System.out.println("+++ equipedItem.getItem(): " + equipedItem.);
-	//
-	//// while(event.player.getHeldEquipment().iterator().hasNext()) {
-	//// String equipped =
-	// event.player.getHeldEquipment().iterator().next().getDisplayName();
-	//// if (!lastEquippedItem.equals(equipped)) {
-	//// lastEquippedItem = equipped;
-	//// System.out.println("---- equipped: " + lastEquippedItem + " ----");
-	//// }
-	//// }
-	// }
-	// }
-
 	private String lastMessage = null;
 
 	@SubscribeEvent
@@ -52,7 +19,7 @@ public class MyForgeEventHandler {
 		String message = event.getItem().getItem().getDisplayName() + " collected!";
 		if (!message.equals(this.lastMessage)) {
 			this.lastMessage = message;
-			writeToChat(message);
+			// writeToChat(message);
 		}
 		copyToClipBoard(message);
 	}
@@ -70,7 +37,7 @@ public class MyForgeEventHandler {
 		Thread thread = new Thread(myRunnable);
 		thread.start();
 	}
-	
+
 	private void writeToChat(String text) {
 		Runnable myRunnable = new Runnable() {
 			public void run() {
@@ -81,23 +48,20 @@ public class MyForgeEventHandler {
 		Thread thread = new Thread(myRunnable);
 		thread.start();
 	}
-	
+
 	@SubscribeEvent
-	public void OnFinish(PlayerInteractEvent.RightClickBlock e)
-	{
-		logAndPlay(e.getItemStack().getDisplayName() + "used!");
+	public void OnFinish(PlayerInteractEvent.RightClickBlock e) {
+		logAndPlay(e.getItemStack().getDisplayName() + " used!");
 	}
-	
+
 	@SubscribeEvent
-	public void OnFinish(PlayerInteractEvent.RightClickItem e)
-	{
-		logAndPlay(e.getItemStack().getDisplayName() + "used!");
+	public void OnFinish(PlayerInteractEvent.RightClickItem e) {
+		logAndPlay(e.getItemStack().getDisplayName() + " used!");
 	}
 
 	private void logAndPlay(String message) {
-		writeToChat(message);
+		// writeToChat(message);
 		copyToClipBoard(message);
 	}
-	
-	
+
 }

@@ -59,101 +59,98 @@ Class Start: net.waog.text2cb.ExampleMod
 Class End  : net.waog.text2cb.ExampleMod
 endProcessing "net\waog\text2cb\ExampleMod.java"
 
-startProcessing "net\waog\text2cb\MyForgeEventHandler.java" md5: 6ee50a98f4cf340201f8e7d7e31b47ee
+startProcessing "net\waog\text2cb\MyForgeEventHandler.java" md5: 916784ae15c237d2afebc8fccb81a51e
 @|net\waog\text2cb\MyForgeEventHandler.java|8|24|net.waog.text2cb|package|net.waog.text2cb|(file)
 Class Start: net.waog.text2cb.MyForgeEventHandler
    @|net\waog\text2cb\MyForgeEventHandler.java|394|413|MyForgeEventHandler|class|net.waog.text2cb.MyForgeEventHandler
-   @|net\waog\text2cb\MyForgeEventHandler.java|1597|1603|String|class|java.lang.String
-   @|net\waog\text2cb\MyForgeEventHandler.java|1597|1603|String|class|java.lang.String
-   @|net\waog\text2cb\MyForgeEventHandler.java|1604|1615|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage|
+   @|net\waog\text2cb\MyForgeEventHandler.java|426|432|String|class|java.lang.String
+   @|net\waog\text2cb\MyForgeEventHandler.java|426|432|String|class|java.lang.String
+   @|net\waog\text2cb\MyForgeEventHandler.java|433|444|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage|
    Method Start: pickupItem(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|1688|1693|event|param|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|1627|1641|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-      @|net\waog\text2cb\MyForgeEventHandler.java|1655|1665|pickupItem|method|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|1666|1687|EntityItemPickupEvent|class|net.minecraftforge.event.entity.player.EntityItemPickupEvent
-      @|net\waog\text2cb\MyForgeEventHandler.java|1700|1706|String|class|java.lang.String
-      @|net\waog\text2cb\MyForgeEventHandler.java|1717|1722|event|param|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|1723|1730|getItem|method|net.minecraftforge.event.entity.player.EntityItemPickupEvent|getItem|()Lnet/minecraft/entity/item/EntityItem;
-      @|net\waog\text2cb\MyForgeEventHandler.java|1733|1740|getItem|method|net.minecraft.entity.item.EntityItem|getItem|()Lnet/minecraft/item/ItemStack;
-      @|net\waog\text2cb\MyForgeEventHandler.java|1743|1757|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
-      @|net\waog\text2cb\MyForgeEventHandler.java|1792|1798|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
-      @|net\waog\text2cb\MyForgeEventHandler.java|1804|1815|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage
-      @|net\waog\text2cb\MyForgeEventHandler.java|1828|1839|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage
-      @|net\waog\text2cb\MyForgeEventHandler.java|1854|1865|writeToChat|method|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|1882|1897|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|517|522|event|param|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|456|470|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|net\waog\text2cb\MyForgeEventHandler.java|484|494|pickupItem|method|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|495|516|EntityItemPickupEvent|class|net.minecraftforge.event.entity.player.EntityItemPickupEvent
+      @|net\waog\text2cb\MyForgeEventHandler.java|529|535|String|class|java.lang.String
+      @|net\waog\text2cb\MyForgeEventHandler.java|546|551|event|param|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|552|559|getItem|method|net.minecraftforge.event.entity.player.EntityItemPickupEvent|getItem|()Lnet/minecraft/entity/item/EntityItem;
+      @|net\waog\text2cb\MyForgeEventHandler.java|562|569|getItem|method|net.minecraft.entity.item.EntityItem|getItem|()Lnet/minecraft/item/ItemStack;
+      @|net\waog\text2cb\MyForgeEventHandler.java|572|586|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
+      @|net\waog\text2cb\MyForgeEventHandler.java|621|627|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|net\waog\text2cb\MyForgeEventHandler.java|633|644|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage
+      @|net\waog\text2cb\MyForgeEventHandler.java|657|668|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage
+      @|net\waog\text2cb\MyForgeEventHandler.java|714|729|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
    Method End: pickupItem(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
    Method Start: copyToClipBoard(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|1949|1953|text|param|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V|text|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|1926|1941|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|1942|1948|String|class|java.lang.String
-      @|net\waog\text2cb\MyForgeEventHandler.java|1959|1967|Runnable|class|java.lang.Runnable
-      @|net\waog\text2cb\MyForgeEventHandler.java|1985|1993|Runnable|class|java.lang.Runnable
+      @|net\waog\text2cb\MyForgeEventHandler.java|781|785|text|param|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V|text|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|758|773|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|774|780|String|class|java.lang.String
+      @|net\waog\text2cb\MyForgeEventHandler.java|791|799|Runnable|class|java.lang.Runnable
+      @|net\waog\text2cb\MyForgeEventHandler.java|817|825|Runnable|class|java.lang.Runnable
       Anon Class Start: net.waog.text2cb.MyForgeEventHandler$1
          Method Start: run()V
-            @|net\waog\text2cb\MyForgeEventHandler.java|2013|2016|run|method|java.lang.Runnable|run|()V
-            @|net\waog\text2cb\MyForgeEventHandler.java|2025|2032|Toolkit|class|java.awt.Toolkit
-            @|net\waog\text2cb\MyForgeEventHandler.java|2043|2050|Toolkit|class|java.awt.Toolkit
-            @|net\waog\text2cb\MyForgeEventHandler.java|2051|2068|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
-            @|net\waog\text2cb\MyForgeEventHandler.java|2076|2085|Clipboard|class|java.awt.datatransfer.Clipboard
-            @|net\waog\text2cb\MyForgeEventHandler.java|2106|2124|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
-            @|net\waog\text2cb\MyForgeEventHandler.java|2132|2147|StringSelection|class|java.awt.datatransfer.StringSelection
-            @|net\waog\text2cb\MyForgeEventHandler.java|2161|2176|StringSelection|class|java.awt.datatransfer.StringSelection
-            @|net\waog\text2cb\MyForgeEventHandler.java|2188|2192|text|param|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V|text|0
-            @|net\waog\text2cb\MyForgeEventHandler.java|2216|2227|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+            @|net\waog\text2cb\MyForgeEventHandler.java|845|848|run|method|java.lang.Runnable|run|()V
+            @|net\waog\text2cb\MyForgeEventHandler.java|857|864|Toolkit|class|java.awt.Toolkit
+            @|net\waog\text2cb\MyForgeEventHandler.java|875|882|Toolkit|class|java.awt.Toolkit
+            @|net\waog\text2cb\MyForgeEventHandler.java|883|900|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+            @|net\waog\text2cb\MyForgeEventHandler.java|908|917|Clipboard|class|java.awt.datatransfer.Clipboard
+            @|net\waog\text2cb\MyForgeEventHandler.java|938|956|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+            @|net\waog\text2cb\MyForgeEventHandler.java|964|979|StringSelection|class|java.awt.datatransfer.StringSelection
+            @|net\waog\text2cb\MyForgeEventHandler.java|993|1008|StringSelection|class|java.awt.datatransfer.StringSelection
+            @|net\waog\text2cb\MyForgeEventHandler.java|1020|1024|text|param|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V|text|0
+            @|net\waog\text2cb\MyForgeEventHandler.java|1048|1059|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
          Method End: run()V
       Anon Class End: net.waog.text2cb.MyForgeEventHandler$1
-      @|net\waog\text2cb\MyForgeEventHandler.java|2256|2262|Thread|class|java.lang.Thread
-      @|net\waog\text2cb\MyForgeEventHandler.java|2276|2282|Thread|class|java.lang.Thread
-      @|net\waog\text2cb\MyForgeEventHandler.java|2305|2310|start|method|java.lang.Thread|start|()V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1088|1094|Thread|class|java.lang.Thread
+      @|net\waog\text2cb\MyForgeEventHandler.java|1108|1114|Thread|class|java.lang.Thread
+      @|net\waog\text2cb\MyForgeEventHandler.java|1137|1142|start|method|java.lang.Thread|start|()V
    Method End: copyToClipBoard(Ljava/lang/String;)V
    Method Start: writeToChat(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2352|2356|text|param|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V|text|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|2333|2344|writeToChat|method|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2345|2351|String|class|java.lang.String
-      @|net\waog\text2cb\MyForgeEventHandler.java|2362|2370|Runnable|class|java.lang.Runnable
-      @|net\waog\text2cb\MyForgeEventHandler.java|2388|2396|Runnable|class|java.lang.Runnable
+      @|net\waog\text2cb\MyForgeEventHandler.java|1183|1187|text|param|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V|text|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1164|1175|writeToChat|method|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1176|1182|String|class|java.lang.String
+      @|net\waog\text2cb\MyForgeEventHandler.java|1193|1201|Runnable|class|java.lang.Runnable
+      @|net\waog\text2cb\MyForgeEventHandler.java|1219|1227|Runnable|class|java.lang.Runnable
       Anon Class Start: net.waog.text2cb.MyForgeEventHandler$2
          Method Start: run()V
-            @|net\waog\text2cb\MyForgeEventHandler.java|2416|2419|run|method|java.lang.Runnable|run|()V
-            @|net\waog\text2cb\MyForgeEventHandler.java|2428|2437|Minecraft|class|net.minecraft.client.Minecraft
-            @|net\waog\text2cb\MyForgeEventHandler.java|2438|2450|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-            @|net\waog\text2cb\MyForgeEventHandler.java|2453|2459|player|field|net.minecraft.client.Minecraft|player
-            @|net\waog\text2cb\MyForgeEventHandler.java|2460|2475|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
-            @|net\waog\text2cb\MyForgeEventHandler.java|2476|2480|text|param|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V|text|0
+            @|net\waog\text2cb\MyForgeEventHandler.java|1247|1250|run|method|java.lang.Runnable|run|()V
+            @|net\waog\text2cb\MyForgeEventHandler.java|1259|1268|Minecraft|class|net.minecraft.client.Minecraft
+            @|net\waog\text2cb\MyForgeEventHandler.java|1269|1281|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+            @|net\waog\text2cb\MyForgeEventHandler.java|1284|1290|player|field|net.minecraft.client.Minecraft|player
+            @|net\waog\text2cb\MyForgeEventHandler.java|1291|1306|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+            @|net\waog\text2cb\MyForgeEventHandler.java|1307|1311|text|param|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V|text|0
          Method End: run()V
       Anon Class End: net.waog.text2cb.MyForgeEventHandler$2
-      @|net\waog\text2cb\MyForgeEventHandler.java|2496|2502|Thread|class|java.lang.Thread
-      @|net\waog\text2cb\MyForgeEventHandler.java|2516|2522|Thread|class|java.lang.Thread
-      @|net\waog\text2cb\MyForgeEventHandler.java|2545|2550|start|method|java.lang.Thread|start|()V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1327|1333|Thread|class|java.lang.Thread
+      @|net\waog\text2cb\MyForgeEventHandler.java|1347|1353|Thread|class|java.lang.Thread
+      @|net\waog\text2cb\MyForgeEventHandler.java|1376|1381|start|method|java.lang.Thread|start|()V
    Method End: writeToChat(Ljava/lang/String;)V
    Method Start: OnFinish(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2634|2635|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|e|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|2561|2575|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-      @|net\waog\text2cb\MyForgeEventHandler.java|2589|2597|OnFinish|method|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2598|2633|PlayerInteractEvent.RightClickBlock|class|net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickBlock
-      @|net\waog\text2cb\MyForgeEventHandler.java|2642|2652|logAndPlay|method|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2653|2654|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|e|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|2655|2667|getItemStack|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|net\waog\text2cb\MyForgeEventHandler.java|2670|2684|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1464|1465|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|e|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1391|1405|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|net\waog\text2cb\MyForgeEventHandler.java|1419|1427|OnFinish|method|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1428|1463|PlayerInteractEvent.RightClickBlock|class|net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickBlock
+      @|net\waog\text2cb\MyForgeEventHandler.java|1471|1481|logAndPlay|method|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1482|1483|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|e|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1484|1496|getItemStack|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1499|1513|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
    Method End: OnFinish(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
    Method Start: OnFinish(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2778|2779|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V|e|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|2706|2720|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-      @|net\waog\text2cb\MyForgeEventHandler.java|2734|2742|OnFinish|method|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2743|2777|PlayerInteractEvent.RightClickItem|class|net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickItem
-      @|net\waog\text2cb\MyForgeEventHandler.java|2786|2796|logAndPlay|method|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2797|2798|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V|e|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|2799|2811|getItemStack|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getItemStack|()Lnet/minecraft/item/ItemStack;
-      @|net\waog\text2cb\MyForgeEventHandler.java|2814|2828|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1607|1608|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V|e|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1535|1549|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|net\waog\text2cb\MyForgeEventHandler.java|1563|1571|OnFinish|method|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1572|1606|PlayerInteractEvent.RightClickItem|class|net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickItem
+      @|net\waog\text2cb\MyForgeEventHandler.java|1614|1624|logAndPlay|method|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1625|1626|e|param|net.waog.text2cb.MyForgeEventHandler|OnFinish|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V|e|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1627|1639|getItemStack|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1642|1656|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
    Method End: OnFinish(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickItem;)V
    Method Start: logAndPlay(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2879|2886|message|param|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V|message|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|2861|2871|logAndPlay|method|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2872|2878|String|class|java.lang.String
-      @|net\waog\text2cb\MyForgeEventHandler.java|2892|2903|writeToChat|method|net.waog.text2cb.MyForgeEventHandler|writeToChat|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2904|2911|message|param|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V|message|0
-      @|net\waog\text2cb\MyForgeEventHandler.java|2916|2931|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
-      @|net\waog\text2cb\MyForgeEventHandler.java|2932|2939|message|param|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V|message|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1708|1715|message|param|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V|message|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1690|1700|logAndPlay|method|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1701|1707|String|class|java.lang.String
+      @|net\waog\text2cb\MyForgeEventHandler.java|1748|1763|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1764|1771|message|param|net.waog.text2cb.MyForgeEventHandler|logAndPlay|(Ljava/lang/String;)V|message|0
    Method End: logAndPlay(Ljava/lang/String;)V
 Class End  : net.waog.text2cb.MyForgeEventHandler
 endProcessing "net\waog\text2cb\MyForgeEventHandler.java"
