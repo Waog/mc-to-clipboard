@@ -1,0 +1,8 @@
+{
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2018-03-12 23:13:49 +0100"
+    },
+    "done": true
+  }
+}

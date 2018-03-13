@@ -1,0 +1,104 @@
+Symbol range map extraction starting
+Processing 2 files
+startProcessing "net\waog\text2cb\ExampleMod.java" md5: 8a86baf699607976c699c71fa211fdd5
+Cache Hit!
+@|net\waog\text2cb\ExampleMod.java|8|24|net.waog.text2cb|package|net.waog.text2cb|(file)
+Class Start: net.waog.text2cb.ExampleMod
+   @|net\waog\text2cb\ExampleMod.java|387|390|Mod|class|net.minecraftforge.fml.common.Mod
+   @|net\waog\text2cb\ExampleMod.java|391|396|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|net\waog\text2cb\ExampleMod.java|399|409|ExampleMod|class|net.waog.text2cb.ExampleMod
+   @|net\waog\text2cb\ExampleMod.java|410|415|MODID|field|net.waog.text2cb.ExampleMod|MODID
+   @|net\waog\text2cb\ExampleMod.java|417|421|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|net\waog\text2cb\ExampleMod.java|424|434|ExampleMod|class|net.waog.text2cb.ExampleMod
+   @|net\waog\text2cb\ExampleMod.java|435|439|NAME|field|net.waog.text2cb.ExampleMod|NAME
+   @|net\waog\text2cb\ExampleMod.java|441|448|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|net\waog\text2cb\ExampleMod.java|451|461|ExampleMod|class|net.waog.text2cb.ExampleMod
+   @|net\waog\text2cb\ExampleMod.java|462|469|VERSION|field|net.waog.text2cb.ExampleMod|VERSION
+   @|net\waog\text2cb\ExampleMod.java|484|494|ExampleMod|class|net.waog.text2cb.ExampleMod
+   @|net\waog\text2cb\ExampleMod.java|521|527|String|class|java.lang.String
+   @|net\waog\text2cb\ExampleMod.java|521|527|String|class|java.lang.String
+   @|net\waog\text2cb\ExampleMod.java|528|533|MODID|field|net.waog.text2cb.ExampleMod|MODID|
+   @|net\waog\text2cb\ExampleMod.java|571|577|String|class|java.lang.String
+   @|net\waog\text2cb\ExampleMod.java|571|577|String|class|java.lang.String
+   @|net\waog\text2cb\ExampleMod.java|578|582|NAME|field|net.waog.text2cb.ExampleMod|NAME|
+   @|net\waog\text2cb\ExampleMod.java|630|636|String|class|java.lang.String
+   @|net\waog\text2cb\ExampleMod.java|630|636|String|class|java.lang.String
+   @|net\waog\text2cb\ExampleMod.java|637|644|VERSION|field|net.waog.text2cb.ExampleMod|VERSION|
+   @|net\waog\text2cb\ExampleMod.java|674|680|Logger|class|org.apache.logging.log4j.Logger
+   @|net\waog\text2cb\ExampleMod.java|674|680|Logger|class|org.apache.logging.log4j.Logger
+   @|net\waog\text2cb\ExampleMod.java|681|687|logger|field|net.waog.text2cb.ExampleMod|logger|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\waog\text2cb\ExampleMod.java|758|763|event|param|net.waog.text2cb.ExampleMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\waog\text2cb\ExampleMod.java|695|707|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\waog\text2cb\ExampleMod.java|724|731|preInit|method|net.waog.text2cb.ExampleMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|net\waog\text2cb\ExampleMod.java|732|757|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|net\waog\text2cb\ExampleMod.java|779|785|logger|field|net.waog.text2cb.ExampleMod|logger
+      @|net\waog\text2cb\ExampleMod.java|788|793|event|param|net.waog.text2cb.ExampleMod|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|net\waog\text2cb\ExampleMod.java|794|803|getModLog|method|net.minecraftforge.fml.common.event.FMLPreInitializationEvent|getModLog|()Lorg/apache/logging/log4j/Logger;
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\waog\text2cb\ExampleMod.java|876|881|event|param|net.waog.text2cb.ExampleMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|net\waog\text2cb\ExampleMod.java|819|831|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|net\waog\text2cb\ExampleMod.java|848|852|init|method|net.waog.text2cb.ExampleMod|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|net\waog\text2cb\ExampleMod.java|853|875|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|net\waog\text2cb\ExampleMod.java|926|932|logger|field|net.waog.text2cb.ExampleMod|logger
+      @|net\waog\text2cb\ExampleMod.java|933|937|info|method|org.apache.logging.log4j.Logger|info|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|net\waog\text2cb\ExampleMod.java|958|964|Blocks|class|net.minecraft.init.Blocks
+      @|net\waog\text2cb\ExampleMod.java|965|969|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|net\waog\text2cb\ExampleMod.java|970|985|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|net\waog\text2cb\ExampleMod.java|998|1004|logger|field|net.waog.text2cb.ExampleMod|logger
+      @|net\waog\text2cb\ExampleMod.java|1005|1009|warn|method|org.apache.logging.log4j.Logger|warn|(Ljava/lang/String;Ljava/lang/Object;)V
+      @|net\waog\text2cb\ExampleMod.java|1030|1036|Blocks|class|net.minecraft.init.Blocks
+      @|net\waog\text2cb\ExampleMod.java|1037|1041|DIRT|field|net.minecraft.init.Blocks|DIRT
+      @|net\waog\text2cb\ExampleMod.java|1042|1057|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|net\waog\text2cb\ExampleMod.java|1079|1093|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|net\waog\text2cb\ExampleMod.java|1094|1103|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|net\waog\text2cb\ExampleMod.java|1104|1112|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+      @|net\waog\text2cb\ExampleMod.java|1117|1136|MyForgeEventHandler|class|net.waog.text2cb.MyForgeEventHandler
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : net.waog.text2cb.ExampleMod
+endProcessing "net\waog\text2cb\ExampleMod.java"
+
+startProcessing "net\waog\text2cb\MyForgeEventHandler.java" md5: 15fa04120c5b486eced924014ee0ef08
+@|net\waog\text2cb\MyForgeEventHandler.java|8|24|net.waog.text2cb|package|net.waog.text2cb|(file)
+Class Start: net.waog.text2cb.MyForgeEventHandler
+   @|net\waog\text2cb\MyForgeEventHandler.java|327|346|MyForgeEventHandler|class|net.waog.text2cb.MyForgeEventHandler
+   @|net\waog\text2cb\MyForgeEventHandler.java|1535|1541|String|class|java.lang.String
+   @|net\waog\text2cb\MyForgeEventHandler.java|1535|1541|String|class|java.lang.String
+   @|net\waog\text2cb\MyForgeEventHandler.java|1542|1553|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage|
+   Method Start: pickupItem(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1633|1638|event|param|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1569|1583|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|net\waog\text2cb\MyForgeEventHandler.java|1600|1610|pickupItem|method|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1611|1632|EntityItemPickupEvent|class|net.minecraftforge.event.entity.player.EntityItemPickupEvent
+      @|net\waog\text2cb\MyForgeEventHandler.java|1653|1659|String|class|java.lang.String
+      @|net\waog\text2cb\MyForgeEventHandler.java|1670|1675|event|param|net.waog.text2cb.MyForgeEventHandler|pickupItem|(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V|event|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1676|1683|getItem|method|net.minecraftforge.event.entity.player.EntityItemPickupEvent|getItem|()Lnet/minecraft/entity/item/EntityItem;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1686|1693|getItem|method|net.minecraft.entity.item.EntityItem|getItem|()Lnet/minecraft/item/ItemStack;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1696|1710|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1748|1754|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|net\waog\text2cb\MyForgeEventHandler.java|1760|1771|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage
+      @|net\waog\text2cb\MyForgeEventHandler.java|1787|1798|lastMessage|field|net.waog.text2cb.MyForgeEventHandler|lastMessage
+      @|net\waog\text2cb\MyForgeEventHandler.java|1816|1825|Minecraft|class|net.minecraft.client.Minecraft
+      @|net\waog\text2cb\MyForgeEventHandler.java|1826|1838|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|net\waog\text2cb\MyForgeEventHandler.java|1841|1847|player|field|net.minecraft.client.Minecraft|player
+      @|net\waog\text2cb\MyForgeEventHandler.java|1848|1863|sendChatMessage|method|net.minecraft.client.entity.EntityPlayerSP|sendChatMessage|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1880|1895|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
+   Method End: pickupItem(Lnet/minecraftforge/event/entity/player/EntityItemPickupEvent;)V
+   Method Start: copyToClipBoard(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1957|1961|text|param|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V|text|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|1934|1949|copyToClipBoard|method|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V
+      @|net\waog\text2cb\MyForgeEventHandler.java|1950|1956|String|class|java.lang.String
+      @|net\waog\text2cb\MyForgeEventHandler.java|1967|1974|Toolkit|class|java.awt.Toolkit
+      @|net\waog\text2cb\MyForgeEventHandler.java|1985|1992|Toolkit|class|java.awt.Toolkit
+      @|net\waog\text2cb\MyForgeEventHandler.java|1993|2010|getDefaultToolkit|method|java.awt.Toolkit|getDefaultToolkit|()Ljava/awt/Toolkit;
+      @|net\waog\text2cb\MyForgeEventHandler.java|2016|2025|Clipboard|class|java.awt.datatransfer.Clipboard
+      @|net\waog\text2cb\MyForgeEventHandler.java|2046|2064|getSystemClipboard|method|java.awt.Toolkit|getSystemClipboard|()Ljava/awt/datatransfer/Clipboard;
+      @|net\waog\text2cb\MyForgeEventHandler.java|2070|2085|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|net\waog\text2cb\MyForgeEventHandler.java|2099|2114|StringSelection|class|java.awt.datatransfer.StringSelection
+      @|net\waog\text2cb\MyForgeEventHandler.java|2115|2119|text|param|net.waog.text2cb.MyForgeEventHandler|copyToClipBoard|(Ljava/lang/String;)V|text|0
+      @|net\waog\text2cb\MyForgeEventHandler.java|2134|2145|setContents|method|java.awt.datatransfer.Clipboard|setContents|(Ljava/awt/datatransfer/Transferable;Ljava/awt/datatransfer/ClipboardOwner;)V
+   Method End: copyToClipBoard(Ljava/lang/String;)V
+Class End  : net.waog.text2cb.MyForgeEventHandler
+endProcessing "net\waog\text2cb\MyForgeEventHandler.java"
+

@@ -1,0 +1,14 @@
+{
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_yellow_flower": "2018-03-12 23:19:43 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "redwood_taiga_hills": "2018-03-12 23:19:43 +0100"
+    },
+    "done": false
+  }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "text2cb",
+  "name": "Text to Clipboard",
+  "description": "Copies item names to the computers clipboard",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Waog"],
+  "credits": "Waog, and the Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
