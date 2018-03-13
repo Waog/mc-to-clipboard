@@ -6,6 +6,7 @@ import java.awt.datatransfer.StringSelection;
 
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.event.entity.player.EntityItemPickupEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class MyForgeEventHandler {
@@ -51,9 +52,9 @@ public class MyForgeEventHandler {
 		String message = event.getItem().getItem().getDisplayName() + " collected!";
 		if (!message.equals(this.lastMessage)) {
 			this.lastMessage = message;
-			Minecraft.getMinecraft().player.sendChatMessage(message);
+			writeToChat(message);
 		}
-		copyToClipBoard("c2tts{" + message + "} ");
+		copyToClipBoard(message);
 	}
 
 	private void copyToClipBoard(String text) {
@@ -61,7 +62,7 @@ public class MyForgeEventHandler {
 			public void run() {
 				Toolkit toolkit = Toolkit.getDefaultToolkit();
 				Clipboard clipboard = toolkit.getSystemClipboard();
-				StringSelection strSel = new StringSelection(text);
+				StringSelection strSel = new StringSelection("c2tts{" + text + "} ");
 				clipboard.setContents(strSel, null);
 			}
 		};
@@ -69,4 +70,34 @@ public class MyForgeEventHandler {
 		Thread thread = new Thread(myRunnable);
 		thread.start();
 	}
+	
+	private void writeToChat(String text) {
+		Runnable myRunnable = new Runnable() {
+			public void run() {
+				Minecraft.getMinecraft().player.sendChatMessage(text);
+			}
+		};
+
+		Thread thread = new Thread(myRunnable);
+		thread.start();
+	}
+	
+	@SubscribeEvent
+	public void OnFinish(PlayerInteractEvent.RightClickBlock e)
+	{
+		logAndPlay(e.getItemStack().getDisplayName() + "used!");
+	}
+	
+	@SubscribeEvent
+	public void OnFinish(PlayerInteractEvent.RightClickItem e)
+	{
+		logAndPlay(e.getItemStack().getDisplayName() + "used!");
+	}
+
+	private void logAndPlay(String message) {
+		writeToChat(message);
+		copyToClipBoard(message);
+	}
+	
+	
 }
